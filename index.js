@@ -31,3 +31,7 @@ carros.push(carro);
 
 console.log(carros);
 
+carro = carros[0];
+carro.cor = "vermelho";
+
+console.log(carro, carros)
