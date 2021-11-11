@@ -7,7 +7,7 @@ app.get('/:nome', function (req, res) {
  
     const nome = req.params.nome
 
-    res.send (" Bem-Vindo " + nome);
+    res.send ("Bem- Vindo " + nome);
 
 });
 
