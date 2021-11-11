@@ -16,3 +16,18 @@ if (dia == 10) {
 } else {
     console.log("Não é dia de pagamento");
 }
+
+console.log("--------------------")
+
+let carros = [];
+
+let carro = {
+    "modelo": "Fusca",
+    "ano": "1969",
+    "cor": "bege",
+}
+
+carros.push(carro);
+
+console.log(carros);
+
