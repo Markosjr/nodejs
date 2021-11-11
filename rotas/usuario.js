@@ -5,5 +5,5 @@
             res.send("GET usuario");
      });
 
-
+     
      module.exports = router;
