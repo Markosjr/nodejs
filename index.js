@@ -2,8 +2,12 @@ const express = require("express");
 const app = express();
 const porta = 3000;
 
-app.get('/', function (req, res) {
-    res.send ("Bem-Vindo");
+app.get('/:nome', function (req, res) {
+    console.log(req.params)
+ 
+    const nome = req.params.nome
+
+    res.send (" Bem-Vindo " + nome);
 
 });
 
