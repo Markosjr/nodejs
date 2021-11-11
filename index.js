@@ -55,3 +55,8 @@ carros [0] = opala;
 carros [1] = carro;
 
 console.log(carros)
+
+for (const carro of carros) {
+   carro.cor = "branco"
+    console.log(carro);
+}
