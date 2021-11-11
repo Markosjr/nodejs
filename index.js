@@ -22,7 +22,7 @@ console.log("--------------------")
 let carros = [];
 
 let carro = {
-    "modelo": "Fusca",
+    "nome": "Fusca",
     "ano": "1969",
     "cor": "bege",
 }
@@ -34,4 +34,20 @@ console.log(carros);
 carro = carros[0];
 carro.cor = "vermelho";
 
-console.log(carro, carros)
+//console.log(carro, carros)
+
+carros[0].cor = "vermelho";
+
+console.log(carros)
+
+let opala = {
+    nome: "opala",
+    ano: 1984,
+    modelo: 1985,
+    cor:"preto",
+}
+
+carros.push(opala);
+
+console.log(carros)
+
