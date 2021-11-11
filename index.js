@@ -51,3 +51,7 @@ carros.push(opala);
 
 console.log(carros)
 
+carros [0] = opala;
+carros [1] = carro;
+
+console.log(carros)
