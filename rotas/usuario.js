@@ -5,5 +5,10 @@
             res.send("GET usuario");
      });
 
-     
+     router.post("/", function(req, res) {
+        console.log(req.body);
+        res.send("POST usuario");
+
+     });
+
      module.exports = router;
