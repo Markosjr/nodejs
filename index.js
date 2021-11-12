@@ -1,7 +1,10 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const app = express();
 const usuario = require("./rotas/usuario");
 const porta = 3000;
+
+app.use(express.json());
 
 app.use("/usuario", usuario);
 
